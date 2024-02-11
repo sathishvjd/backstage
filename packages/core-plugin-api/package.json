@@ -33,8 +33,8 @@
     "start": "backstage-cli package start"
   },
   "dependencies": {
-    "@backstage/config": "workspace:^",
-    "@backstage/types": "workspace:^",
+    "@backstage/config": "0.1.1",
+    "@backstage/types": "0.1.1",
     "@backstage/version-bridge": "workspace:^",
     "history": "^5.0.0",
     "prop-types": "^15.7.2",
