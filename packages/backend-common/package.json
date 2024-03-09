@@ -34,7 +34,7 @@
     "test:kubernetes": "backstage-cli package test -t KubernetesContainerRunner --no-watch"
   },
   "dependencies": {
-    "@backstage/backend-plugin-api": "workspace:^",
+    "@backstage/backend-plugin-api": "0.1.0",
     "@backstage/cli-common": "workspace:^",
     "@backstage/config": "workspace:^",
     "@backstage/config-loader": "workspace:^",
@@ -65,7 +65,7 @@
     "git-url-parse": "^13.0.0",
     "helmet": "^6.0.0",
     "isomorphic-git": "^1.8.0",
-    "jose": "^4.6.0",
+    "jose": "^4.15.5",
     "keyv": "^4.5.2",
     "knex": "^2.0.0",
     "lodash": "^4.17.21",
