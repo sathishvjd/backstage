@@ -1,4 +1,4 @@
-FROM ruby:3.0.5-slim-bullseye
+FROM ruby:3.1.4-slim-bullseye
 
 RUN apt-get update -qq && \
     apt-get install -y nodejs postgresql-client git && \
