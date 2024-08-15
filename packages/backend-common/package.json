@@ -34,12 +34,12 @@
     "test:kubernetes": "backstage-cli package test -t KubernetesContainerRunner --no-watch"
   },
   "dependencies": {
-    "@backstage/backend-plugin-api": "workspace:^",
+    "@backstage/backend-plugin-api": "0.1.0",
     "@backstage/cli-common": "workspace:^",
     "@backstage/config": "workspace:^",
     "@backstage/config-loader": "workspace:^",
-    "@backstage/errors": "workspace:^",
-    "@backstage/integration": "workspace:^",
+    "@backstage/errors": "0.1.1",
+    "@backstage/integration": "0.1.0",
     "@backstage/types": "workspace:^",
     "@google-cloud/storage": "^6.0.0",
     "@keyv/memcache": "^1.3.5",
